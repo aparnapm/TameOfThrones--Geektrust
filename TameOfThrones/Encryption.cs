@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TameOfThrones
 {
-    static class Encryption
+    public static class Encryption
     {
         public static string SeasarCipher(string text, int index)
         {
