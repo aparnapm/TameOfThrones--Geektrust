@@ -55,7 +55,6 @@ namespace TameOfThrones
         public void ParseFile(string fileName)
         {
             string[] messages = File.ReadAllLines(fileName);
-            //string[] messages = { "Land FDIXXSOKKOFBBMU","Ice MOMAMVTMTMHTM","FIRE SUMMER IS COMING","AIR OWLAOWLBOWLC","FIRE AJXGAMUTA" };
            
             foreach (string msg in messages)
             {

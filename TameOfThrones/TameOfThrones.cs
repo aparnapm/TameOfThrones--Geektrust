@@ -10,8 +10,8 @@ namespace TameOfThrones
         static void Main(string[] args)
         {
             Initialize();
-            //inputFileName = args[0];
-            inputFileName = @"D:\PersonalGitProjects\input.txt";
+            inputFileName = args[0];
+            //inputFileName = @"D:\HobbyStudy\Projects\GitHub Projects\Aparna-Github\TameOfThrones--Geektrust\input.txt";
             GoldenCrown goldenCrown = new GoldenCrown();
             goldenCrown.ParseFile(inputFileName);
             goldenCrown.MsgDecryptionStrategy();
